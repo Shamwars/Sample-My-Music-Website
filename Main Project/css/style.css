@@ -1,0 +1,118 @@
+body{
+      background: #000000 ;
+      text-align: center;
+    }
+#main{
+       width: 980px;
+       height: 600px;
+       background: #303030;
+       margin: 50px auto;
+       border: solid 2px #ff3819;
+       padding: 10px;
+     }
+#wrapperHeader{
+                position: relative;
+                background-image:url(..images/banner.jpg);
+              }
+#header{
+         background:url(..images/banner.jpg) no-repeat;
+       }
+h1{
+    text-align: center;
+    font-family:"Times New Roman";
+    font: 24pt;
+    color: #ff3819;
+  }
+h4{
+   text-align: center;
+   font-family: "Times New Roman";
+   font: 24pt;
+   color: FF0000;
+  }
+h3{
+   text-align: center;
+   font-family:"Times New Roman";
+   font: 24pt;
+   color: #ff3819;
+  }
+hr {
+    background-color: black; 
+    height: 2px; 
+    border: 0; 
+   }
+p{
+   font-family:"Old English Five";
+   font-size: 9pt;
+   text-align: left;
+   color: #FFF000;
+   padding: 5px;
+ }
+li{
+   display: inline;
+   padding: 5px;
+   list-style-type: none;
+ }
+.nav{
+      text-align: center;
+    }
+article{
+       background-image: url(../images/brickbg.jpg);
+      }
+table{
+      text-align: center;
+      border: solid;
+      border-width: 1px;
+    }	
+th{
+   border-bottom: dashed;
+   border-width:1px;
+  } 
+#lColumn{
+          background-color: red;
+          min-height: 200px;
+          width: 30%;
+          float: left;
+        }			  
+#rColumn{ 
+          background-color: green;
+          min-height: 200px;
+          width: 70%;
+          float: left;
+        }	
+td , tr{
+        border: 1px solid #0088dd;
+        padding: 10px;
+      }
+table {
+      border-style: none;
+     }	  
+table.one {
+           empty-cells: show;
+         }
+table.two {
+           empty-cells: hide;
+         }
+td {
+    background-color: #000000;
+    padding: 15px;
+    border: 2px solid #000000;
+    color: white;
+  }
+th{
+   background-color: 990000;
+   padding: 15px;
+   border: 2px solid #000000;
+   font-weight: bold;
+   color: white;
+   font-size: 15px;
+  }
+#contact{
+text-align: left;
+}  
+#butt{
+float: right;
+}
+
+
+		
+
